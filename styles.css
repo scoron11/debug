@@ -352,6 +352,10 @@ header img{
     grid-template-columns: 1fr 1fr;
     margin-top: 1rem;
   }
+
+  #homeMain{
+    max-width: 950px;
+  }
   
   #aboutPlants{
     margin-bottom: 0;
