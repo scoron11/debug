@@ -339,6 +339,10 @@ header img{
     grid-template-columns: 1fr 1fr;
     align-items: start;
   }
+
+  footer{
+    margin-top: 2rem;
+    }
 }
 
 /* -----------------------LARGE SCREEN STYLES-------------------- */
@@ -356,7 +360,7 @@ header img{
   main article:last-of-type{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   #hero{
