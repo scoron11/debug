@@ -358,8 +358,8 @@ header img{
   }
   
   main article:last-of-type{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     margin-top: 2rem;
   }
 
