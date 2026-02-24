@@ -161,6 +161,12 @@ p{
   margin: 0 auto;
 }
 
+#homeMain{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 #homeMain p{
   padding: 1rem;
 }
