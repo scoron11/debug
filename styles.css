@@ -259,6 +259,7 @@ header img{
 
 #homeMain span{
   display: block;
+  max-width: 100%;
 }
 
 #aboutPlants img, #contactUs img{
