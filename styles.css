@@ -164,7 +164,7 @@ p{
 #homeMain{
   max-width: 950px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 4rem;
 }
 
 #homeMain p{
@@ -375,10 +375,6 @@ header img{
   #hero{
     width: 80%;
     margin: 1rem auto;
-  }
-  
-  #aboutPlants{
-    margin-bottom: 0;
   }
 
   .desktop{
