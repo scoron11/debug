@@ -247,7 +247,7 @@ footer address{
 
 /* ------------------------MOBILE STYLES--------------------- */
 
-@media screen and (max-width: 499px){
+@media screen and (max-width: 699px){
   #homeMain{ 
     padding: 0; max-width: none; 
   }
