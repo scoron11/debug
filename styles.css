@@ -249,7 +249,7 @@ footer address{
 
 @media screen and (max-width: 699px){
   #homeMain{ 
-    padding: 0; max-width: none; 
+    padding: 0; 
   }
   #hero{ 
     margin: 1rem 0; 
@@ -258,7 +258,6 @@ footer address{
     padding: 0 2rem; 
   }
 }
-
 
 header img{
   width: 90px;
