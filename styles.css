@@ -88,6 +88,13 @@ table {
   height:auto;
 }
 
+main article:last-of-type{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;        
+  margin-top: 2rem; 
+}
+
 header, footer{
   background-color: var(--dark-green);
   color: var(--white);
@@ -171,6 +178,10 @@ p{
   padding: 1rem;
 }
 
+footer{
+  margin-top: 2rem;
+}
+
 footer > div{
   display: grid;
   grid-template-columns: 1fr; 
@@ -243,10 +254,6 @@ header img{
 
 #homeMain span{
   display: block;
-}
-
-#aboutPlants{
-  margin-bottom: 1rem;
 }
 
 #aboutPlants img, #contactUs img{
@@ -339,10 +346,6 @@ header img{
     grid-template-columns: 1fr 1fr;
     align-items: start;
   }
-
-  footer{
-    margin-top: 2rem;
-    }
 }
 
 /* -----------------------LARGE SCREEN STYLES-------------------- */
@@ -358,8 +361,9 @@ header img{
   }
   
   main article:last-of-type{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;      
     margin-top: 2rem;
   }
 
