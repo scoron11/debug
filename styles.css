@@ -247,6 +247,18 @@ footer address{
 
 /* ------------------------MOBILE STYLES--------------------- */
 
+@media screen and (max-width: 499px){
+
+  #homeMain{
+    padding: 0;           
+  }
+
+  #homeMain p{
+    padding: 0 0.5rem;   
+  }
+
+}
+
 header img{
   width: 90px;
   margin: 0 auto;
